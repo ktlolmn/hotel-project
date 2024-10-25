@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    padding: 0 50px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(255, 255, 255) 0%, rgba(92,206,208,1) 100%);
+    /* background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(234, 233, 238) 0%, rgba(154,154,219,1) 0%, rgba(101,200,221,1) 100%); */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Lexend Giga;
+    color: #065865;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .logo img {
+    height: 36px;
+    margin-right: 10px;
+    border-radius: 50%;
+  }
+
+  .logo span{
+    font-size: 16px;
+  }
+  
+  .navMenu ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+  }
+  
+  .navMenu li {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .navMenu li a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 200;
+    margin-left: 8px;
+    transition: color 0.3s;
+  }
+  
+  .navMenu li:hover a {
+    color: #d0e1ff;
+  }
+  
+  .material-icons {
+    font-size: 24px;
+    vertical-align: middle;
+  }
+  

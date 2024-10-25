@@ -1,0 +1,154 @@
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+  }
+  
+  .backButton {
+    color: #000;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  .roomDetailWrapper {
+    display: flex;
+    gap: 30px;
+    margin: 0 30px;
+    justify-content: center;
+  }
+  
+  .roomImage {
+    flex: 2;
+  }
+  
+  .roomImage img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .roomInfo {
+    flex: 3;
+  }
+  
+  .roomInfo h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    margin-top: 0;
+    text-align: left;
+    color: #000 !important;
+  }
+  
+  .roomInfo p {
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  
+  .datePicker {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .datePicker label {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .datePicker input {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+  }
+  
+  .description h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .description p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  .roomInfo button {
+    margin-top: 40px;
+  }
+  .errorMessage{
+    color: rgb(165, 16, 16);
+    margin: 3px 0;
+    font-size: 12px !important;
+  }
+  /*
+  
+  .bookButton:hover {
+    background: linear-gradient(to right, #3a5ba9, #162239);
+  }
+  
+  .backButton:hover {
+    background-color: #3c5ca9;
+  } */
+  .feedbackSection {
+    margin-top: 40px;
+    border-radius: 10px;
+  }
+  
+  .feedbackSection ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .feedbackSection li {
+    padding: 4px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.144);
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .feedbackSection li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .feedbackSection p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .feedbackSection strong {
+    color: #000;
+  }
+  
+  .feedbackSection em {
+    color: #999;
+    font-size: 14px;
+  }
+  .rating {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .filledStar {
+    color: gold;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .emptyStar {
+    color: lightgray;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  .loading{
+    text-align: center;
+  }

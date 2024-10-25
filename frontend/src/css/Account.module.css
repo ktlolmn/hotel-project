@@ -1,0 +1,160 @@
+.accountContainer {
+    width: 400px;
+    margin: 100px auto ;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profileSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .nameSection {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .nameSection h2{
+    font-size: 14px;
+  }
+  
+  .nameInput {
+    font-size: 14px;
+    padding: 5px;
+    background: none;
+    width: 170px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    outline: none;
+    font-family: Lexend Giga;
+  }
+  
+  .icon {
+    cursor: pointer;
+    font-size: 15px;
+    color: #777;
+  }
+  
+  .contactInfo {
+    margin: 20px 0;
+    font-size: 13px;
+  }
+  
+  .infoRow {
+    display: grid;
+    grid-template-columns: 2fr 5fr 1fr;
+    align-items: center;
+    text-align: left;
+    gap: 10px;
+  }
+  
+  .inputField {
+    font-size: 13px;
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    padding: 6px;
+    font-family: Lexend Giga;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .action{
+    display: flex;
+    justify-content:space-around;
+    margin: 0;
+    padding: 0;
+    gap: 4px;
+  }
+  
+  .logoutBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .changePassBtn{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    margin-bottom: 0;
+    font-family: Lexend Giga;
+  }
+
+  .logoutBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    margin-top: 30px;
+    margin-bottom: 0;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .modalContent {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .modalContent p{
+    font-size: 12px;
+    color: rgb(107, 2, 2);
+  }
+
+  .modalContent .action{
+    justify-content: flex-end !important;
+    gap: 30px;
+  }
+  
+  .saveBtn {
+    background: linear-gradient(to right, #4b6cb7, #182848);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .cancelBtn {
+    background-color: #ccc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  

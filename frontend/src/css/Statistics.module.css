@@ -1,0 +1,48 @@
+  .container {
+    padding: 20px;
+    margin: 0 auto;
+    margin-left: 160px;
+    height: 100vh;
+  }
+
+  .container h2{
+    color: #000 !important;
+  }
+  
+  .header {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .yearPicker {
+    width: 48px;
+    padding: 8px;
+    font-size: 16px;
+    border: none; 
+    outline: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .exportButton {
+    display: flex;
+    align-items: center;
+    width: auto;
+    gap: 10px;
+    padding: 8px 12px;
+    color: #000;
+    border: none;
+    font-family: Lexend Giga;
+    font-size: 15px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  

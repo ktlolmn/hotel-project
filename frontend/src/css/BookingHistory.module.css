@@ -1,0 +1,60 @@
+  .container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+  }
+
+  .containerAdmin {
+    padding: 20px;
+    margin-left: 160px;
+  }
+  
+  .containerAdmin h2 ,
+  .containerAdmin h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000 !important;
+  }
+
+  .searchContainer input{
+    width: 20%;
+    padding: 4px 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 3px 0;
+    outline: none;
+    height: 25px;
+    margin-bottom: 10px;
+  }
+  
+  .bookingTable {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0 10px;
+  }
+  
+  .bookingTable th,
+  .bookingTable td {
+    padding: 12px 8px;
+    text-align: center;
+  }
+
+  .bookingTable tr{
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.1);
+    border-radius: 4px;
+  }
+  
+  .bookingTable th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .actionButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .emptyMessage, .loading{
+    text-align: center;
+  }

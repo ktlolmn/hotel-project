@@ -1,0 +1,142 @@
+.container {
+    width: 90%;
+    margin: 50px auto;
+  }
+  
+  .banner {
+    height: 300px;
+  }
+  
+  .banner {
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  
+  .banner h1 {
+    font-size: 52px;
+    font-weight: bold;
+    font-family: Dancing Script;
+  }
+  
+  .filterSortSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+  }
+
+  .filterContainer{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .filter, .sort {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .filter select, .sort select {
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #e2e2e2;
+    outline: none;
+  }
+
+  button{
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+  }
+
+  .roomList {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+  
+  .roomCard {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .roomCard img {
+    width: 100%;
+    border-radius: 5px;
+    height: 150px;
+    object-fit: cover;
+  }
+  
+  .roomCard h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .roomCard p {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  .roomCard h4 {
+    font-size: 13px;
+    color: #555;
+  }
+
+  .roomCard button a{
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .center{
+    margin: 100px 0;
+    text-align: center;
+  }
+  
+  .date{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 0;
+  }
+
+  .datePicker {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .datePicker label {
+    font-weight: bold;
+    font-size: 13px;
+  }
+  
+  .datePicker input {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+  }
+  .containerFind{
+    display: flex;
+    justify-content: center;
+  }
+  .errorMessage{
+    color: rgb(165, 16, 16);
+    margin: 3px 0;
+    font-size: 15px !important;
+    text-align: center;
+    margin-top: 20px;
+  }

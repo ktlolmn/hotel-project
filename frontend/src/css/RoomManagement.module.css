@@ -1,0 +1,182 @@
+  .container {
+    padding: 20px;
+    margin-left: 160px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .header input {
+    width: 20%;
+    padding: 4px 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    margin: 3px 0;
+    outline: none;
+  }
+  
+  .uploadButton {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .addButton {
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 30px;
+    background-color: #4b6cb7;
+    width: 30px;
+    color: #fff;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+
+  .uploadButton p,
+  .addButton p{
+    margin: 0;
+    padding-top: 3px;
+    margin-left: 6px;
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0 10px;
+  }
+  
+  .table th,
+  .table td {
+    padding: 12px 8px;
+    text-align: center;
+  }
+
+  .table tr{
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.1);
+    border-radius: 4px;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  .description {
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left !important;
+    text-overflow: ellipsis;
+    max-width: 400px;  
+  }
+
+  .action{
+    display: flex;
+    justify-content: end;
+    list-style: none;
+  }
+  
+  .editButton {
+    color: #0a7523;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    font-size: 15px;
+    width: fit-content;
+  }
+  
+  .deleteButton {
+    color: #790d18;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    font-size: 15px;
+    width: fit-content;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    width: 400px;
+  }
+
+  .modalContent{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .modal>h2{
+    color:  #000 !important;
+  }
+  
+  .modalContent label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .modalContent input, 
+  .modalContent select {
+    padding: 8px;
+    margin-bottom: 15px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+  }
+
+  .modalContent textarea {
+    padding: 8px;
+    margin-bottom: 15px;
+    outline: none;
+    border: 1px solid #ccc;
+  }
+  
+  .modalActions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+  }
+  
+  .modalActions>button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .modalActions button:first-child {
+    color: white;
+    background-color: #ccc;
+  }
+    
+  .modalActions button:last-child {
+    color: white;
+    background-color: #333;
+  }
+  

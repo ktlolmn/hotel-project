@@ -1,0 +1,44 @@
+  .bookingManagement {
+    padding: 20px;
+    margin-left: 160px;
+  }
+
+  .bookingManagement h2{
+    color: #000 !important;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: #000;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 10px;
+    text-align: left;
+    border: none;
+  }
+
+  table th{
+    background-color: #ddd;
+  }
+
+  table tr{
+    padding: 10px;
+    text-align: left;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .bookingManagement button{
+    width: 100px;
+    border-radius: 8px;
+    background-color: #333;
+  }
+  

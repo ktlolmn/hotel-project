@@ -1,0 +1,109 @@
+  .loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("../img/bg.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .loginForm {
+    background: none;
+    backdrop-filter: blur(10px);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff !important;
+  }
+  
+  .logo {
+    margin-bottom: 20px;
+  }
+  
+  .logoText {
+    font-size: 48px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  .inputGroup {
+    margin-bottom: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .inputGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #ffffffb4;
+  }
+  
+  .inputGroup input {
+    padding: 8px;
+    font-family: Lexend Giga;
+    border: none;
+    border-radius: 10px;
+    background:none;
+    color: #fff;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .inputGroup input:focus {
+    outline: none;
+  }
+  
+  .loginButton {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(45deg, #4b6cb7, #182848);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .loginButton:hover {
+    background: linear-gradient(45deg, #4b6cb7, #00d2ff);
+  }
+  
+  .signupText {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .signupText a {
+    color: #4b6cb7;
+    text-decoration: none;
+  }
+  
+  .signupText a:hover {
+    text-decoration: underline;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+  
